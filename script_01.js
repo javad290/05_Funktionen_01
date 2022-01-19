@@ -13,3 +13,16 @@ function test()
     console.log("Hallo Thilo!");
 }
 
+/***** Funktionen 02a *****/
+// 2a. Parametrisierung + Datenübergabe von INNEN
+
+// Aufruf (call)
+ausgabeNamen();
+
+// Funktion
+function ausgabeNamen() {
+    let firstName = "Anna"; // what happens in Vegas, ...
+    console.log("Hallo " + firstName + "!");
+}
+
+// console.log(firstName);  // .. stays in Vegas!
